@@ -97,11 +97,6 @@ export default function NavMenu() {
                             ))}
                             <MenubarSeparator />
                             <MenubarItem>
-                                <a className="mx-1 flex" href="https://github.com/bagusindrayana/extract-apk-web">
-                                    <FaGithub className="text-2xl mx-2" /> <span>Repository</span>
-                                </a>
-                            </MenubarItem>
-                            <MenubarItem>
                                 <div className="flex mx-1 content-center items-center align-middle">
                                     <DropdownMenu>
                                         <DropdownMenuTrigger asChild>
