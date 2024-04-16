@@ -31,7 +31,7 @@ export default function NavMenu() {
     const { setTheme } = useTheme()
     const menus = {
         "/": "Home",
-        "/scam-apk": "Scan FAKE APP",
+        "/scam-apk": "Scan Fake APP",
     };
     const [open, setOpen] = useState(false);
 
@@ -40,7 +40,7 @@ export default function NavMenu() {
         <div className="flex justify-between items-center bg-gray-800 p-4">
             <div className="flex items-center">
 
-                <h1 className="text-2xl text-white">Extract APK Data</h1>
+                <h1 className="text-2xl text-white">APP EXTRACTOR</h1>
 
             </div>
 
@@ -54,7 +54,7 @@ export default function NavMenu() {
                     >
                         {label}
                     </a>
-                )}
+                ))}
                 <DropdownMenu>
                     <DropdownMenuTrigger asChild>
                         <Button variant="outline" size="icon" id="changeThemeMobile">
