@@ -31,7 +31,7 @@ export default function NavMenu() {
     const { setTheme } = useTheme()
     const menus = {
         "/": "Home",
-        "/scam-apk": "SpamScam APK",
+        "/scam-apk": "Scan FAKE APP",
     };
     const [open, setOpen] = useState(false);
 
@@ -54,11 +54,7 @@ export default function NavMenu() {
                     >
                         {label}
                     </a>
-                ))}
-                
-                <a className="mx-2" href="https://github.com/bagusindrayana/extract-apk-web">
-                    <FaGithub className="text-white text-2xl" />
-                </a>
+                )}
                 <DropdownMenu>
                     <DropdownMenuTrigger asChild>
                         <Button variant="outline" size="icon" id="changeThemeMobile">
